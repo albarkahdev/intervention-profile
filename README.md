@@ -13,17 +13,14 @@ A modern, responsive healthcare website for intervention services featuring a cl
 ## 📱 Screenshots
 
 ### Desktop Version
-![Desktop Homepage](assets/images/screenshots/desktop-home.png)
-*Homepage featuring hero section with call-to-action and service overview*
-
-![Desktop Services](assets/images/screenshots/desktop-services.png)
-*Services section showcasing intervention programs*
-
-![Desktop Contact](assets/images/screenshots/desktop-contact.png)
-*Contact form with validation and professional layout*
+![Desktop Homepage](assets/screenshots/Desktop-1.png)
+![Desktop Homepage](assets/screenshots/Desktop-2.png)
+![Desktop Homepage](assets/screenshots/Desktop-3.png)
+![Desktop Homepage](assets/screenshots/Desktop-4.png)
 
 ### Mobile Version
-![Mobile Homepage](assets/images/screenshots/mobile-home.png) ![Mobile Services](assets/images/screenshots/mobile-services.png) ![Mobile Contact](assets/images/screenshots/mobile-contact.png)
+![Mobile Homepage](assets/screenshots/Mobile-1.png)
+![Mobile Homepage](assets/screenshots/Mobile-2.png)
 
 *Mobile-optimized layouts with touch-friendly navigation*
 
@@ -72,7 +69,7 @@ get-an-intervention/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/get-an-intervention.git
+   git clone https://github.com/albarkahdev/intervention-profile
    cd get-an-intervention
    ```
 
