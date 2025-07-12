@@ -41,28 +41,14 @@ A modern, responsive healthcare website for intervention services featuring a cl
 get-an-intervention/
 ├── index.html                 # Main homepage
 ├── thank-you.html             # Thank you page after form submission
-├── css/
-│   ├── variables.css          # CSS custom properties and theme variables
-│   ├── reset.css              # CSS reset and base styles
-│   └── components/
-│       ├── header.css         # Navigation and header styles
-│       ├── hero.css           # Hero section styling
-│       ├── services.css       # Services section
-│       ├── organize.css       # Organization section
-│       ├── video-section.css  # Video player section
-│       ├── contact.css        # Contact form styles
-│       └── footer.css         # Footer component
+├── css/                       # All CSS-related files
 ├── js/
-│   └── components/
-│       ├── navigation.js      # Mobile menu and navigation
-│       ├── videoSection.js    # Video modal functionality
-│       ├── contactForm.js     # Form validation and submission
-│       └── animations.js      # Scroll animations and effects
+│   ├── components/            # All components related files
+│   └── app.js                 # Main JS file
 ├── assets/
-│   ├── images/
-│   │   ├── hero-bg.jpg        # Hero background image
-│   │   ├── services/          # Service-related images
-│   │   └── screenshots/       # Screenshots for documentation
+│   ├── images/                # Images files
+│   ├── icons/                 # Icons files
+│   └── screenshots/           # Screenshots for documentation
 └── README.md
 ```
 
@@ -105,9 +91,6 @@ get-an-intervention/
    
    # Node.js (if you have http-server installed)
    npx http-server
-   
-   # PHP
-   php -S localhost:8000
    ```
 
 4. **View the website**
@@ -163,50 +146,10 @@ get-an-intervention/
 
 ## 🔧 Customization
 
-### Changing Colors
-Update the CSS variables in `css/variables.css`:
-```css
-:root {
-  --primary-green: #your-color;
-  --secondary-green: #your-color;
-  /* ... other variables */
-}
-```
-
 ### Adding New Sections
 1. Create HTML structure in `index.html`
 2. Add corresponding CSS file in `css/components/`
 3. Include any JavaScript functionality in `js/components/`
-
-### Form Configuration
-Update the form action in `index.html`:
-```html
-<form action="your-form-handler.php" method="POST">
-```
-
-## 🚀 Deployment
-
-### GitHub Pages
-1. Push code to GitHub repository
-2. Go to Settings > Pages
-3. Select source branch (usually `main`)
-4. Your site will be available at `https://yourusername.github.io/get-an-intervention`
-
-### Netlify
-1. Drag and drop project folder to Netlify dashboard
-2. Or connect GitHub repository for automatic deployments
-
-### Traditional Hosting
-1. Upload all files to your web server
-2. Ensure `index.html` is in the root directory
-3. Configure any necessary redirects
-
-## 📊 Performance
-
-- **Lighthouse Score**: 95+ (Performance, Accessibility, Best Practices, SEO)
-- **First Contentful Paint**: < 1.5s
-- **Largest Contentful Paint**: < 2.5s
-- **Cumulative Layout Shift**: < 0.1
 
 ## 🤝 Contributing
 
@@ -215,17 +158,6 @@ Update the form action in `index.html`:
 3. Commit your changes (`git commit -am 'Add new feature'`)
 4. Push to the branch (`git push origin feature/new-feature`)
 5. Create a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📞 Support
-
-For support and questions:
-- **Email**: support@getanintervention.com
-- **Phone**: (123) 456-7890
-- **Website**: [getanintervention.com](https://getanintervention.com)
 
 ## 🏆 Acknowledgments
 
